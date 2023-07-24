@@ -1,0 +1,18 @@
+.links{
+    display: flex;
+    justify-content: center;
+    padding-top: 6em;
+    gap: 3em;
+}
+
+.no-products{
+    text-align: center;
+}
+
+.product-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap:4em;
+  padding: 8em;
+}

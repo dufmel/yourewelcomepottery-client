@@ -1,0 +1,48 @@
+body{
+    margin: auto;
+    background-color: beige;
+}
+
+
+#form, #register, #login{
+display: flex;
+flex-direction: column;
+gap: .5em;
+padding-right: 30em;
+padding-left: 30em;
+margin-bottom: 4em;
+
+}
+
+#formImage, #formContent {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+h2, p, h3{align-self: center;
+font-family: sans-serif;
+}
+
+h2{
+text-align: center;
+padding-top: 1em;}
+
+#cards{
+display: flex;
+flex-wrap: wrap;
+gap: 5em;
+justify-content: center;}
+
+#modal{
+    padding-top: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
+}
+
+#formContent {padding: .25em;
+    background-color: beige}
+
+
+#button{margin-left: 25em; margin-right: 25em}
+
