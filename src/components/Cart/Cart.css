@@ -1,0 +1,24 @@
+@font-face{
+    font-family: "Salsa-Regular";
+    src: url("src/fonts/salsa-regular.ttf") format("truetype")
+
+}
+
+.title{
+    font-family: "Salsa-Regular";
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-bottom: 2em;
+}
+

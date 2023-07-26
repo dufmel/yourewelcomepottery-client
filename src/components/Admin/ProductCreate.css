@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    background-color: beige;
+    padding-bottom: 2em;
+}
+
+
+#form, #register, #login{
+display: flex;
+flex-direction: column;
+gap: .5em;
+margin-bottom: 4vw;
+padding-right: 36vw;
+padding-left: 35vw;
+
+}
+#login1 {
+gap: .5em;
+padding-right: 14vw;
+padding-left: 14vw;
+font: 1vw Arial;
+
+}
+
+#formImage, #formContent {
+    display: flex;
+    flex-direction: column;
+    gap: .5vw;
+}
+
+h2, p, h3{align-self: center;
+font-family: sans-serif;
+}
+
+h3, #logout{margin-left: 1vw;}
+
+h2{
+text-align: center;
+padding-top: 1vw;}
+
+#cards{
+display: flex;
+flex-wrap: wrap;
+gap: 5vw;
+justify-content: center;}
+
+#modal{
+    padding-top: 5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+#formContent {padding: .25vw;
+    background-color: beige}
+
+
+#button{margin-left: 25vw; margin-right: 25vw}
