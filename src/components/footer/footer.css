@@ -1,0 +1,25 @@
+#footer
+{display: flex;
+    flex-direction: column;
+align-items: center;
+font-family: sans-serif;
+background-color: brown;
+column-gap: 0%;
+}
+
+h3, h4 {
+    line-height: 0;
+}
+
+button {
+    padding: 12x 24x;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #E2725B ;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: brown;
+}
